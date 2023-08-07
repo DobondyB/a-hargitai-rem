@@ -99,9 +99,10 @@ header {
 }
 
 .hero h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     font-family: 'Butcherman';
     color: #c90000;
+    text-shadow: 2px 2px 20px #FFffff;
 }
 
 .hero p {
@@ -109,4 +110,13 @@ header {
     color: white;
     padding: 50px;
     font-size: 2rem;
+    line-height: 3rem;
+}
+
+.background-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: brightness(20%);
 }
